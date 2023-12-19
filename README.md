@@ -81,8 +81,6 @@ They can't capture all the project's features, but they are sufficient to get a 
 | Continuous deployment with [ArgoCD](https://argoproj.github.io/cd/)                         |
 | [![][lens-demo]][lens-demo]                                                                 |
 | Cluster management using [Lens](https://k8slens.dev/)                                       |
-| [![][vault-demo]][vault-demo]                                                               |
-| Secret management with [Vault](https://www.vaultproject.io/)                                |
 
 [deploy-demo]: https://asciinema.org/a/xkBRkwC6e9RAzVuMDXH3nGHp7.svg
 [pxe-demo]: https://user-images.githubusercontent.com/27996771/157303477-df2e7410-8f02-4648-a86c-71e6b7e89e35.png
@@ -93,7 +91,6 @@ They can't capture all the project's features, but they are sufficient to get a 
 [tekton-demo]: https://user-images.githubusercontent.com/27996771/149445374-58fd0605-bb9a-46e4-81d6-5e584d2b94a9.png
 [argocd-demo]: https://user-images.githubusercontent.com/27996771/149444716-fc0d7282-4cf7-4ddb-97a4-1a3fb47ff2b8.png
 [lens-demo]: https://user-images.githubusercontent.com/27996771/149448896-9d79947d-468c-45c6-a81d-b43654e8ab6b.png
-[vault-demo]: https://user-images.githubusercontent.com/27996771/149452309-de4a893b-e94c-4ba8-9119-ea87449cf77e.png
 
 ### Tech stack
 
@@ -109,7 +106,7 @@ They can't capture all the project's features, but they are sufficient to get a 
         <td>Automate bare metal provisioning and configuration</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://cncf-branding.netlify.app/img/projects/argo/icon/color/argo-icon-color.svg"></td>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/30269780"></td>
         <td><a href="https://argoproj.github.io/cd">ArgoCD</a></td>
         <td>GitOps tool built to deploy applications to Kubernetes</td>
     </tr>
@@ -154,17 +151,17 @@ They can't capture all the project's features, but they are sufficient to get a 
         <td>Operational dashboards</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://cncf-branding.netlify.app/img/projects/helm/icon/color/helm-icon-color.svg"></td>
+        <td><img width="32" src="https://helm.sh/img/helm.svg"></td>
         <td><a href="https://helm.sh">Helm</a></td>
         <td>The package manager for Kubernetes</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://cncf-branding.netlify.app/img/projects/k3s/icon/color/k3s-icon-color.svg"></td>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/49319725"></td>
         <td><a href="https://k3s.io">K3s</a></td>
         <td>Lightweight distribution of Kubernetes</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://cncf-branding.netlify.app/img/projects/kubernetes/icon/color/kubernetes-icon-color.svg"></td>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/13629408"></td>
         <td><a href="https://kubernetes.io">Kubernetes</a></td>
         <td>Container-orchestration system, the backbone of this project</td>
     </tr>
@@ -174,7 +171,7 @@ They can't capture all the project's features, but they are sufficient to get a 
         <td>Log aggregation system</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://cncf-branding.netlify.app/img/projects/longhorn/icon/color/longhorn-icon-color.svg"></td>
+        <td><img width="32" src="https://longhorn.io/img/logos/longhorn-icon-white.png"></td>
         <td><a href="https://longhorn.io">Longhorn</a></td>
         <td>Cloud native distributed block storage for Kubernetes</td>
     </tr>
@@ -189,7 +186,7 @@ They can't capture all the project's features, but they are sufficient to get a 
         <td>Kubernetes Ingress Controller</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://cncf-branding.netlify.app/img/projects/prometheus/icon/color/prometheus-icon-color.svg"></td>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/3380462"></td>
         <td><a href="https://prometheus.io">Prometheus</a></td>
         <td>Systems monitoring and alerting toolkit</td>
     </tr>
@@ -202,11 +199,6 @@ They can't capture all the project's features, but they are sufficient to get a 
         <td><img width="32" src="https://avatars.githubusercontent.com/u/47602533?s=200&v=4"></td>
         <td><a href="https://tekton.dev">Tekton</a></td>
         <td>Cloud native solution for building CI/CD systems</td>
-    </tr>
-    <tr>
-        <td><img width="32" src="https://simpleicons.org/icons/vault.svg"></td>
-        <td><a href="https://www.vaultproject.io">Vault</a></td>
-        <td>Secrets and encryption management system</td>
     </tr>
     <tr>
         <td><img width="32" src="https://docs.zerotier.com/img/ZeroTierIcon.png"></td>
